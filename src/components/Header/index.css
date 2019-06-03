@@ -1,0 +1,27 @@
+.header-wrapper {
+  display: flex;
+  align-items: flex-end;
+  height: 4.063em;
+  padding: 0px 1.25em 0.313em 1.25em;
+}
+
+.header-content-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-label {
+  font-size: 1em;
+  color: var(--NAVY);
+  font-weight: 500;
+}
+
+.chevron-icon {
+  margin-right: 3.125em;
+  width: 0.625em;
+  cursor: pointer;
+}
+
+.chevron-icon:disabled {
+  cursor: default;
+}

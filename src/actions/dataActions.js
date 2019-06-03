@@ -1,0 +1,5 @@
+export const FETCH_DATA = "FETCH_DATA";
+export const REPLACE_DATA = "REPLACE_DATA";
+export const SET_CURRENT_QUESTION_ID = "SET_CURRENT_QUESTION_ID";
+export const SET_ANSWER = "SET_ANSWER";
+export const SET_OUTCOME_ID = "SET_OUTCOME_ID";

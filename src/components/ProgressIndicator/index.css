@@ -1,0 +1,10 @@
+.progress-indicator-container {
+  height: 2px;
+  background-color: var(--LIGHT_GREY);
+}
+
+.progress-indicator-fill {
+  height: 2px;
+  background-color: var(--GREEN);
+  transition: width 0.5s;
+}

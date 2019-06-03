@@ -1,0 +1,40 @@
+.main-section-wrapper {
+  padding: 2.188em 1.25em 1.563em 1.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 54vh;
+}
+
+.section-title {
+  font-size: 1.125em;
+  line-height: 1.625em;
+  color: var(--NAVY);
+}
+
+.body-text {
+  font-size: 0.875em;
+  line-height: 1.375em;
+  color: var(--NAVY);
+}
+
+.options-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.underline-link {
+  font-size: 1em;
+  color: var(--GREEN);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.separator-line {
+  height: 4px;
+  width: 3.125em;
+  background-color: var(--LIGHT_GREY);
+  margin-bottom: 1.25em;
+  border-radius: 100px;
+}

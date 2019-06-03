@@ -1,0 +1,32 @@
+.option-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5em;
+  border-radius: 100px;
+  font-size: 1em;
+  width: 48%;
+  padding: 0px 0.75em 0px 0.75em;
+}
+
+.-option-btn-selected {
+  background-color: var(--GREEN);
+  color: var(--WHITE);
+  font-weight: 500;
+}
+
+.-option-btn-deselected {
+  background-color: transparent;
+  border: 2px solid var(--LIGHT_GREY);
+  color: var(--GREEN);
+}
+
+.option-btn-icon {
+  background-color: var(--WHITE);
+  width: 1.563em;
+  height: 1.563em;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
